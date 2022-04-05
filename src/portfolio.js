@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Giuseppe A. G. Sirianni",
+  username: "Giuseppe Sirianni",
   title: "Hi, My name is Giuseppe A.G. Sirianni!",
   subTitle: emoji(
     "I'm an Aerospace engineer with a strong foundation in aerodynamics who's specialized in CFD development and currently working as a researcher in the field of multi-phase flows and in-flight icing solvers."
@@ -162,13 +162,6 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Volunteer",
-      company: "Dynamo Camp",
-      companylogo: require("./assets/images/dynamo.png"),
-      date: "April 2015 – May 2016",
-      desc: "Volunteering as an entertainer and caretaker for kids with complicated health situations, that precludes them from partaking in normal 'kids activities'."
-    },
-    {
       role: "Research intern",
       company: "University of Zurich",
       companylogo: require("./assets/images/uzh.png"),
@@ -176,6 +169,13 @@ const workExperiences = {
       desc: "Researching strategies to simulate low Mach multi-phase flows using the Baer-Nunziato conservation laws",
       descBullets: [
       ]
+    },
+    {
+      role: "Volunteer",
+      company: "Dynamo Camp",
+      companylogo: require("./assets/images/dynamo.png"),
+      date: "April 2015 – May 2016",
+      desc: "Volunteering as an entertainer and caretaker for kids with complicated health situations, that precludes them from partaking in normal 'kids activities'."
     }
   ]
 };
@@ -194,17 +194,6 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Some old and on-going projects I've been involved in",
   projects: [
-    {
-      image: require("./assets/images/projectnotebook.png"),
-      projectName: "ProjectNotebook",
-      projectDesc: "An online framework (C#) created to replace and enhance traditional notebooks using tablets, with support for note sharing & collaboration with social features through the use of Rest APIs.",
-      footerLink: [
-        {
-          name: "Discontinued",
-          url: ""
-        }
-      ]
-    },
     {
       image: require("./assets/images/su2.png"),
       projectName: "SU2 - Particle Tracking",
@@ -226,7 +215,19 @@ const bigProjects = {
           url: "https://su2code.github.io/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/projectnotebook.png"),
+      projectName: "ProjectNotebook",
+      projectDesc: "An online framework (C#) created to replace and enhance traditional notebooks using tablets, with support for note sharing & collaboration with social features through the use of Rest APIs.",
+      footerLink: [
+        {
+          name: "Discontinued",
+          url: ""
+        }
+      ]
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
