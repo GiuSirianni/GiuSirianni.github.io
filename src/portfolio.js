@@ -95,7 +95,7 @@ const educationInfo = {
     {
       schoolName: "Politecnico di Milano",
       logo: require("./assets/images/polimi.png"),
-      subHeader: "M.Sc. in Aerospace Engineering",
+      subHeader: "M.Sc. in Aeronautical Engineering",
       duration: "September 2019 - December 2021",
       desc: "Grade 110/110",
       descBullets: [
@@ -123,7 +123,7 @@ const educationInfo = {
     {
       schoolName: "ITIS Città della Vittoria",
       logo: require("./assets/images/itis.jpg"),
-      subHeader: "High School. Informatics Industrial Engineer",
+      subHeader: "High School - Informatics Industrial Engineer",
       duration: "September 2013 - June 2016",
       desc: "Grade 100/100",
       descBullets: [
@@ -299,37 +299,36 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Poly-dispersed Eulerian-Lagrangian particle tracking for in-flight icing applications",
+      url: "http://hdl.handle.net/10589/181669",
+      title: "Mixed Eulerian-Lagrangian polydispersed 3D droplet tracking",
       description:
-        "Giuseppe A.G. Sirianni, Tommaso Bellosta, Barbara Re, Alberto M.A. Guardone - AIAA Aviation 2022"},
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
+        "Giuseppe A.G. Sirianni, Tommaso Bellosta, Barbara Re, Alberto M.A. Guardone - M.Sc. Thesis, 2021"}
+    // {
+    //   url: "http://hdl.handle.net/10589/181669",
+    //   title: "Poly-dispersed Eulerian-Lagrangian particle tracking for in-flight icing applications",
+    //   description:
+    //     "Giuseppe A.G. Sirianni, Tommaso Bellosta, Barbara Re, Alberto M.A. Guardone - AIAA Aviation, 2022"}
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Scholar Profiles",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    ""
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Google Scholar",
+      subtitle: "",
+      // slides_url: "",
+      event_url: "https://scholar.google.it/citations?user=FXHP0IIAAAAJ&hl=en&oi=ao"
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -340,7 +339,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://scholar.google.it/citations?user=FXHP0IIAAAAJ&hl=en&oi=ao"
   ],
   display: false // Set false to hide this section, defaults to true
 };
