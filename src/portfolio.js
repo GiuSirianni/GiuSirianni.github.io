@@ -278,15 +278,17 @@ const blogSection = {
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
+      url: "https://doi.org/10.2514/6.2022-3695",
+      title: "Poly-dispersed Eulerian-Lagrangian particle tracking for in-flight icing applications",
+      description:
+        "Giuseppe A.G. Sirianni, Tommaso Bellosta, Barbara Re, Alberto Guardone - AIAA AVIATION 2022 Forum"
+    },
+    {
       url: "http://hdl.handle.net/10589/181669",
       title: "Mixed Eulerian-Lagrangian polydispersed 3D droplet tracking",
       description:
-        "Giuseppe A.G. Sirianni, Tommaso Bellosta, Barbara Re, Alberto M.A. Guardone - M.Sc. Thesis, 2021"}
-    // {
-    //   url: "http://hdl.handle.net/10589/181669",
-    //   title: "Poly-dispersed Eulerian-Lagrangian particle tracking for in-flight icing applications",
-    //   description:
-    //     "Giuseppe A.G. Sirianni, Tommaso Bellosta, Barbara Re, Alberto M.A. Guardone - AIAA Aviation, 2022"}
+        "Giuseppe A.G. Sirianni, Tommaso Bellosta, Barbara Re, Alberto Guardone - M.Sc. Thesis, 2021"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
